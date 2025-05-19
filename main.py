@@ -35,7 +35,8 @@ def find_keyword_occurrences(words: list[str], lyric_path: str):
 
 
 def main():
-    find_keyword_occurrences(words=['rockabye', 'love', "I'm gonna give you all of my love", "I'm gonna rock you"], lyric_path=rockabye)
+    find_keyword_occurrences(words=['rockabye', 'love', "I'm gonna give you all of my love", "I'm gonna rock you"],
+                             lyric_path=rockabye)
 
     print('----rockabye lyric stats ')
     lyric_stats(rockabye)
